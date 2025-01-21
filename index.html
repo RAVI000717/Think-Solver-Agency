@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Solver Agency</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/ThinkSolver (3).png" alt="Think Solver">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="text">Transform Your Business with Powerful Digital Marketing Solutions</h1>
+            <p class="text">Grow your online presence with our expert-driven strategies tailored for startups, small businesses, and influencers.</p>
+            <a href="contact.html" class="cta-button">Get a Free Consultation</a>
+        </div>
+        <div class="hero-banner">
+            <div class="marketing-illustration">
+                <div class="graph-element">
+                    <div class="bar-chart">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="social-elements">
+                    <div class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social-icon twitter">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="analytics-card">
+                        <div class="card-header">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="circle-progress">
+                        <svg viewBox="0 0 36 36">
+                            <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--primary-color)" stroke-width="3" stroke-dasharray="75, 100"/>
+                        </svg>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Core Services</h2>
+            <p>Comprehensive digital solutions to grow your business</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+                <div class="icon-wrapper">
+                    <i class="fas fa-share-nodes"></i>
+                </div>
+                <h3>Social Media Marketing</h3>
+                <p>Build brand awareness and engage with your audience across all social platforms</p>
+                <ul class="service-features">
+                    <li>Platform Strategy</li>
+                    <li>Content Creation</li>
+                    <li>Community Management</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-wrapper">
+                    <i class="fas fa-magnifying-glass-chart"></i>
+                </div>
+                <h3>Search Engine Optimization</h3>
+                <p>Improve your website's visibility and rank higher in search results</p>
+                <ul class="service-features">
+                    <li>Keyword Research</li>
+                    <li>On-Page SEO</li>
+                    <li>Link Building</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-wrapper">
+                    <i class="fas fa-rectangle-ad"></i>
+                </div>
+                <h3>Pay-Per-Click Advertising</h3>
+                <p>Drive targeted traffic and conversions with strategic ad campaigns</p>
+                <ul class="service-features">
+                    <li>Ad Campaign Setup</li>
+                    <li>Audience Targeting</li>
+                    <li>Performance Tracking</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-wrapper">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3>Content Marketing</h3>
+                <p>Engage your audience with valuable and informative content</p>
+                <ul class="service-features">
+                    <li>Content Strategy</li>
+                    <li>Blog Writing</li>
+                    <li>Content Distribution</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up">
+                <div class="icon-wrapper">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Create stunning visuals that capture your brand's essence</p>
+                <ul class="service-features">
+                    <li>Brand Identity</li>
+                    <li>Social Media Graphics</li>
+                    <li>Marketing Materials</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-wrapper">
+                    <i class="fas fa-envelope-circle-check"></i>
+                </div>
+                <h3>Email Marketing</h3>
+                <p>Nurture leads and drive conversions with targeted email campaigns</p>
+                <ul class="service-features">
+                    <li>Campaign Strategy</li>
+                    <li>Email Automation</li>
+                    <li>Performance Analytics</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-wrapper">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Build responsive and user-friendly websites that convert</p>
+                <ul class="service-features">
+                    <li>Custom Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Website Maintenance</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-wrapper">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Influencer Marketing</h3>
+                <p>Collaborate with influencers to expand your reach</p>
+                <ul class="service-features">
+                    <li>Influencer Selection</li>
+                    <li>Campaign Management</li>
+                    <li>ROI Tracking</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-wrapper">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Analytics & Reporting</h3>
+                <p>Make data-driven decisions with comprehensive analytics</p>
+                <ul class="service-features">
+                    <li>Performance Tracking</li>
+                    <li>Custom Reports</li>
+                    <li>ROI Analysis</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-wrapper">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>Social Media Advertising</h3>
+                <p>Reach your target audience with precision advertising</p>
+                <ul class="service-features">
+                    <li>Ad Campaign Creation</li>
+                    <li>Audience Targeting</li>
+                    <li>Budget Optimization</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="icon-wrapper">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Video Marketing</h3>
+                <p>Engage your audience with compelling video content</p>
+                <ul class="service-features">
+                    <li>Video Production</li>
+                    <li>Content Strategy</li>
+                    <li>Platform Optimization</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="icon-wrapper">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Community Management</h3>
+                <p>Build and nurture your online community</p>
+                <ul class="service-features">
+                    <li>Engagement Strategy</li>
+                    <li>Crisis Management</li>
+                    <li>Brand Monitoring</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="icon-wrapper">
+                    <i class="fas fa-mobile-screen"></i>
+                </div>
+                <h3>Mobile Marketing</h3>
+                <p>Reach customers on their preferred devices</p>
+                <ul class="service-features">
+                    <li>App Marketing</li>
+                    <li>SMS Campaigns</li>
+                    <li>Mobile Optimization</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="900">
+                <div class="icon-wrapper">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h3>E-commerce Marketing</h3>
+                <p>Boost your online store's performance and sales</p>
+                <ul class="service-features">
+                    <li>Shopping Campaigns</li>
+                    <li>Product Optimization</li>
+                    <li>Conversion Strategy</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="1000">
+                <div class="icon-wrapper">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Market Research</h3>
+                <p>Understand your market and competitors better</p>
+                <ul class="service-features">
+                    <li>Competitor Analysis</li>
+                    <li>Market Trends</li>
+                    <li>Consumer Insights</li>
+                </ul>
+                <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="services-cta">
+            <a href="#" class="cta-button">Explore All Services</a>
+        </div>
+        <div class="shape-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="why-us" class="why-us">
+        <div class="shape-divider-inverted">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="section-header">
+            <h2>Why Choose Think Solver Agency?</h2>
+            <p>Partner with us to transform your digital presence and achieve measurable results</p>
+        </div>
+        <div class="benefits-container">
+            <div class="benefit-card" data-aos="fade-up">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-bar"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Result-Oriented Approach</h3>
+                <p>We focus on delivering measurable outcomes that directly impact your business growth</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Data-driven decisions</li>
+                    <li><i class="fas fa-check"></i> Regular performance reports</li>
+                    <li><i class="fas fa-check"></i> ROI focused strategy</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="benefit-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Customized Strategies</h3>
+                <p>Tailored solutions designed specifically for your business needs and goals</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Personalized approach</li>
+                    <li><i class="fas fa-check"></i> Industry-specific tactics</li>
+                    <li><i class="fas fa-check"></i> Scalable solutions</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-icon">
+                    <i class="fas fa-users-gear"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Experienced Team</h3>
+                <p>Expert professionals with proven track record in digital marketing</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Certified experts</li>
+                    <li><i class="fas fa-check"></i> Industry veterans</li>
+                    <li><i class="fas fa-check"></i> Continuous training</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="benefit-icon">
+                    <i class="fas fa-hand-holding-dollar"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Affordable Pricing</h3>
+                <p>Competitive rates with flexible packages to suit your budget</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Transparent pricing</li>
+                    <li><i class="fas fa-check"></i> Flexible packages</li>
+                    <li><i class="fas fa-check"></i> No hidden costs</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>Data-Driven Approach</h3>
+                <p>We make decisions based on real-time analytics and insights, ensuring measurable results and ROI for your business.</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Data analysis</li>
+                    <li><i class="fas fa-check"></i> Performance tracking</li>
+                    <li><i class="fas fa-check"></i> ROI optimization</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="benefit-icon">
+                    <i class="fas fa-clock"></i>
+                    <div class="icon-bg"></div>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Our dedicated team is always available to assist you with any questions or concerns, ensuring smooth communication and project execution.</p>
+                <ul class="benefit-points">
+                    <li><i class="fas fa-check"></i> Priority support</li>
+                    <li><i class="fas fa-check"></i> Quick response times</li>
+                    <li><i class="fas fa-check"></i> Dedicated account manager</li>
+                </ul>
+            </div>
+        </div>
+        <div class="why-us-cta">
+            <a href="#about" class="cta-button">Learn More About Us</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>See How We've Helped Businesses Like Yours</h2>
+            <p>Real success stories from our satisfied clients across different industries</p>
+        </div>
+        
+        <div class="case-studies-container">
+            <div class="case-study-card" data-aos="fade-up">
+                <div class="case-study-image">
+                    <img src="images/E-commerce Success Story.png" alt="E-commerce Success Story">
+                    <div class="category-tag">E-commerce</div>
+                </div>
+                <div class="case-study-content">
+                    <h3>Fashion Retailer's Digital Transformation</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">250%</span>
+                            <span class="label">Revenue Growth</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">180%</span>
+                            <span class="label">Traffic Increase</span>
+                        </div>
+                    </div>
+                    <p>Transformed a traditional fashion retailer into a thriving online store through strategic digital marketing and e-commerce optimization.</p>
+                    <a href="#" class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="case-study-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="case-study-image">
+                    <img src="images/SaaS Success Story.jpg" alt="SaaS Success Story">
+                    <div class="category-tag">SaaS</div>
+                </div>
+                <div class="case-study-content">
+                    <h3>Tech Startup's Market Expansion</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">400%</span>
+                            <span class="label">Lead Generation</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">150%</span>
+                            <span class="label">Conversion Rate</span>
+                        </div>
+                    </div>
+                    <p>Helped a SaaS startup scale their market presence through targeted campaigns and conversion rate optimization.</p>
+                    <a href="#" class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="case-study-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="case-study-image">
+                    <img src="images/Local Business Success Story.webp" alt="Local Business Success Story">
+                    <div class="category-tag">Local Business</div>
+                </div>
+                <div class="case-study-content">
+                    <h3>Restaurant Chain's Local Dominance</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">300%</span>
+                            <span class="label">Online Orders</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">200%</span>
+                            <span class="label">Customer Base</span>
+                        </div>
+                    </div>
+                    <p>Established strong local presence for a restaurant chain through local SEO and social media marketing strategies.</p>
+                    <a href="#" class="read-more">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-cta">
+            <a href="portfolio.html" class="cta-button">View Full Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="section-header">
+            <h2>Stay Updated with Digital Marketing Trends</h2>
+            <p>Expert insights and actionable tips to keep your marketing strategy ahead of the curve</p>
+        </div>
+        
+        <div class="blog-posts-container">
+            <article class="blog-card" data-aos="fade-up">
+                <div class="blog-image">
+                    <img src="images/AI in Digital Marketing.jpg" alt="AI in Digital Marketing">
+                    <div class="post-date">
+                        <span class="day">20</span>
+                        <span class="month">Jan</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Trends</div>
+                    <h3>How AI is Revolutionizing Digital Marketing in 2025</h3>
+                    <p>Discover how artificial intelligence is transforming the digital marketing landscape and how businesses can leverage it for better results.</p>
+                    <div class="blog-footer">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-clock"></i> 5 min read</span>
+                            <span><i class="fas fa-comments"></i> 24 comments</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="blog-image">
+                    <img src="images/Social Media Strategy.jpg" alt="Social Media Strategy">
+                    <div class="post-date">
+                        <span class="day">18</span>
+                        <span class="month">Jan</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Strategy</div>
+                    <h3>Social Media Strategies That Actually Drive Conversions</h3>
+                    <p>Learn the proven social media marketing techniques that go beyond engagement to deliver real business results and ROI.</p>
+                    <div class="blog-footer">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-clock"></i> 7 min read</span>
+                            <span><i class="fas fa-comments"></i> 31 comments</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="blog-image">
+                    <img src="images/SEO Updates.jpg" alt="SEO Updates">
+                    <div class="post-date">
+                        <span class="day">15</span>
+                        <span class="month">Jan</span>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">SEO</div>
+                    <h3>Latest SEO Updates You Need to Know in 2025</h3>
+                    <p>Stay ahead of the competition with our comprehensive guide to the latest search engine optimization changes and best practices.</p>
+                    <div class="blog-footer">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-clock"></i> 6 min read</span>
+                            <span><i class="fas fa-comments"></i> 42 comments</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="blog-cta">
+            <a href="blog.html" class="cta-button">View All Articles</a>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any questions or inquiries</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-content">
+                        <h3>Our Location</h3>
+                        <p>123 Business Street, New York, NY 10001</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="info-content">
+                        <h3>Call Us</h3>
+                        <p>+1 234 567 8900</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info-content">
+                        <h3>Email Us</h3>
+                        <p>info@thinksolver.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="info-content">
+                        <h3>Working Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Enter subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="images/ThinkSolver (3).png" alt="Think Solver Agency">
+                </div>
+                <p>Empowering businesses with innovative digital marketing solutions to achieve sustainable growth and success.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Social Media Marketing</a></li>
+                    <li><a href="#services">SEO Optimization</a></li>
+                    <li><a href="#services">Content Marketing</a></li>
+                    <li><a href="#services">Web Development</a></li>
+                    <li><a href="#services">Digital Strategy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Business Street, City, Country</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                    <li><i class="fas fa-envelope"></i> info@thinksolver.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Think Solver Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 150,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

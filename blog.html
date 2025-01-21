@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Think Solver Digital Marketing Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/ThinkSolver (3).png" alt="Think Solver">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>Digital Marketing Insights & Strategies</h1>
+            <p>Expert tips, industry trends, and actionable strategies to grow your business online</p>
+            <div class="hero-search">
+                <input type="text" placeholder="Search articles...">
+                <button type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Search and Filter -->
+    <section class="blog-search">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search articles...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="seo">SEO</button>
+                <button class="filter-btn" data-category="social">Social Media</button>
+                <button class="filter-btn" data-category="content">Content</button>
+                <button class="filter-btn" data-category="ppc">PPC</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts">
+        <h2>Featured Articles</h2>
+        <div class="featured-grid">
+            <article class="featured-post" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/AI in Marketing.jpg" alt="AI in Marketing">
+                    <div class="category-tag">Trends</div>
+                </div>
+                <div class="post-content">
+                    <h3>The Future of AI in Digital Marketing: 2025 Trends</h3>
+                    <p>Explore how artificial intelligence is reshaping the digital marketing landscape and what it means for your business strategy.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-user"></i> By John Smith</span>
+                        <span><i class="fas fa-calendar"></i> Jan 20, 2025</span>
+                        <span><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- All Posts Grid -->
+    <section class="blog-grid">
+        <h2>Latest Articles</h2>
+        <div class="posts-grid">
+            <!-- Post 1 -->
+            <article class="blog-post" data-category="social" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/Social Media Strategy.jpg" alt="Social Media Strategy">
+                    <div class="category-tag">Social Media</div>
+                </div>
+                <div class="post-content">
+                    <h3>10 Social Media Strategies That Drive Real Results</h3>
+                    <p>Learn the proven techniques that can transform your social media presence and boost engagement.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 18, 2025</span>
+                        <span><i class="fas fa-clock"></i> 6 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-post" data-category="seo" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/SEO Optimization.webp" alt="SEO Optimization">
+                    <div class="category-tag">SEO</div>
+                </div>
+                <div class="post-content">
+                    <h3>Core Web Vitals: The New SEO Game Changer</h3>
+                    <p>Discover how optimizing Core Web Vitals can significantly improve your search engine rankings and user experience.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 19, 2025</span>
+                        <span><i class="fas fa-clock"></i> 7 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-post" data-category="content" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/Content Marketing.png" alt="Content Marketing">
+                    <div class="category-tag">Content</div>
+                </div>
+                <div class="post-content">
+                    <h3>The Art of Storytelling in Content Marketing</h3>
+                    <p>Learn how to craft compelling narratives that connect with your audience and drive brand engagement.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 20, 2025</span>
+                        <span><i class="fas fa-clock"></i> 5 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="blog-post" data-category="ppc" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/PPC Campaign.webp" alt="PPC Campaign">
+                    <div class="category-tag">PPC</div>
+                </div>
+                <div class="post-content">
+                    <h3>Maximizing ROI with Smart PPC Campaigns</h3>
+                    <p>Expert tips on creating and optimizing PPC campaigns that deliver measurable results and higher conversions.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 21, 2025</span>
+                        <span><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="blog-post" data-category="social" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/Influencer Marketing.jpg" alt="Influencer Marketing">
+                    <div class="category-tag">Social Media</div>
+                </div>
+                <div class="post-content">
+                    <h3>Influencer Marketing: Building Authentic Partnerships</h3>
+                    <p>A comprehensive guide to finding and collaborating with influencers who align with your brand values.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 21, 2025</span>
+                        <span><i class="fas fa-clock"></i> 6 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 6 -->
+            <article class="blog-post" data-category="content" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="images/Video Marketing.webp" alt="Video Marketing">
+                    <div class="category-tag">Content</div>
+                </div>
+                <div class="post-content">
+                    <h3>Video Marketing Trends for 2025</h3>
+                    <p>Explore the latest video marketing strategies and formats that are dominating the digital landscape.</p>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> Jan 21, 2025</span>
+                        <span><i class="fas fa-clock"></i> 7 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Add more blog posts here -->
+        </div>
+
+        <div class="pagination">
+            <button class="prev-page"><i class="fas fa-chevron-left"></i></button>
+            <div class="page-numbers">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <span>...</span>
+                <a href="#">10</a>
+            </div>
+            <button class="next-page"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest digital marketing insights and tips.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="images/ThinkSolver (3).png" alt="Think Solver">
+                    </a>
+                    <p>Transforming businesses through innovative digital marketing solutions.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html#services">Social Media Marketing</a></li>
+                    <li><a href="index.html#services">Search Engine Optimization</a></li>
+                    <li><a href="index.html#services">Content Marketing</a></li>
+                    <li><a href="index.html#services">Email Marketing</a></li>
+                    <li><a href="index.html#services">PPC Advertising</a></li>
+                    <li><a href="index.html#services">Web Development</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-section">
+                <h3>Contact Info</h3>
+                <div class="footer-contact">
+                    <p class="address">
+                        123 Business Avenue, Digital Valley<br>
+                        Tech City, TC 12345
+                    </p>
+                    <p class="email">
+                        hello@thinksolver.com
+                    </p>
+                    <p class="phone">
+                        +1 (555) 123-4567
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Think Solver Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
